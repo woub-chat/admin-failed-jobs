@@ -46,7 +46,7 @@ class FailedJobsController extends Controller
                 $modelTable->col('Queue', 'queue')->sort()->to_export(),
                 $modelTable->col('Payload', 'payload')->only_export(),
                 $modelTable->col('Exception', 'exception')->only_export(),
-                $modelTable->col('Failed at', 'failed_at')->sort()->butty_date_time->to_export(),
+                $modelTable->col('Failed at', 'failed_at')->sort()->beautiful_date_time->to_export(),
                 $modelTable->controlEdit(false),
             ),
         );
@@ -85,7 +85,7 @@ class FailedJobsController extends Controller
                 $modelInfoTable->row('Queue', 'queue'),
                 $modelInfoTable->row('Payload', 'payload')->to_json,
                 $modelInfoTable->row('Exception', 'exception'),
-                $modelInfoTable->row('Failed at', 'failed_at')->butty_date_time,
+                $modelInfoTable->row('Failed at', 'failed_at')->beautiful_date_time,
             ),
         );
     }
