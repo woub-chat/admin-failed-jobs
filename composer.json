@@ -7,7 +7,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.0|^8.1",
-        "woub-chat/admin": "^6.0"
+        "woub-chat/admin": "^5.3.8|^6.0"
     },
     "require-dev": {},
     "autoload": {
