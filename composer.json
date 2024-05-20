@@ -1,18 +1,13 @@
 {
-    "name": "bfg/admin-failed-jobs",
-    "description": "Laravel filed jobs viewer for bfg admin",
-    "type": "bfg-admin-extension",
-    "keywords": ["laravel", "bfg", "lte", "admin", "extension", "admin-failed-jobs"],
+    "name": "woub-chat/admin-failed-jobs",
+    "description": "Laravel filed jobs viewer for woub-chat admin",
+    "type": "admin-extension",
+    "keywords": ["laravel", "lte", "admin", "extension", "admin-failed-jobs"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "bfg"
-        }
-    ],
     "prefer-stable": true,
     "require": {
         "php": "^8.0|^8.1",
-        "bfg/admin": "^6.0"
+        "woub-chat/admin": "^6.0"
     },
     "require-dev": {},
     "autoload": {
